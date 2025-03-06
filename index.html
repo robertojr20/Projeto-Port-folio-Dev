@@ -3,62 +3,82 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Portifólio dev</title>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
     
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+     
 </head>
+
 <body>
     <!--INICIO-->
-    <header id="#info" class="container">
-        <header >
-            <div class="avatar">
-                <img src="assets/Image.png" alt="Foto de perfil">
-            </div>
+    <main class="container">
+        <div id="info">
+            <header id="inner-info-container">
+                <div id="avatar">
+                    <img id="code-icon"src="assets/image/Vector.png" alt="code svg">
+                    <div id="circle">
+                        <img src="assets/image/Image.png" alt="Foto de perfil">
+                    </div>
+                </div>
+                
+                <h2> Hello Word! Meu nome é <span class="red-color" >Martina Santos</span> e sou</h2>
+                <h1>Desenvolvedora fullstack</h1>
+                
+                <p>
+                    Transformo necessidades em aplicações reais, evoluintes funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadora e eficazes para desafios complexos
+                </p>
+            </header>
+            
+            <div id="tags">
+                <span class="tag">
+                    <img src="assets/icon/GitHub.svg" alt="icone github">GitHub
+                </span>
 
-            <h4> Hello Word! Meu nome é <span>Martina Santos</span> e sou</h4>
-            <h1>Desenvolvedora fullstack</h1>
-
-            <p>
-                Transformo necessidades em aplicações reais, evoluintes funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadora e eficazes para desafios complexos
-            </p>
-        </header>
-
-        <nav class="tags">
-            <ul class="gap-16 flex ">
-                <li>
-                  <img src="assets/icon/GitHub.svg" alt="icone github">
-                </li>
-
-                <li>
-                    <img src="assets/icon/HTML.svg" alt="icone html ">
-                </li>
-
-                <li>
-                    <img src="assets/icon/CSS.svg" alt="icone css">
-                </li>
-
-                <li>
-                    <img src="assets/icon/JavaScript.svg" alt="icone javascript">
-                </li>
-
-                <li>
-                    <img src="assets/icon/React.svg" alt="icone react ">
-                </li>
-
-                <li>
+                <span class="tag">
+                    <img src="assets/icon/HTML.svg" alt="icone html ">HTML
+                    
+                </span>
+                
+                <span class="tag">
+                    <img src="assets/icon/CSS.svg" alt="icone css"> CSS
+                </span>
+                
+                <span class="tag">
+                    <img src="assets/icon/JavaScript.svg" alt="icone javascript"> JavaScript
+                </span>
+                
+                <span class="tag">
+                    <img src="assets/icon/React.svg" alt="icone react ">React
+                </span>
+                
+                <span class="tag">
                     <img src="assets/icon/Node.js.svg" alt="icone node.js">
-                </li>
+                    Node.js
+                </span> 
+            </div>
+            
+        </div>
+        <img id="caret-double-down" src="assets/image/CaretDoubleDown.png" alt="">
+    </main>
 
-            </ul>
-        </nav>
-
-        <button id="scroll">
-            <img src="assets/image/CaretDoubleDown.png" alt="">
-        </button>
-    </header>
+    <section id="my-works">
+        <h2 class="color-red">Meu trabalho</h2>
+        <h3>Veja os meus destaques</h3>
+        <div class="card">
+            <img src="assets/image/Thumbnail_Project-01.png alt="imagem do projeto">
+           <h4>Travelgram</h4>
+              <p>nRede scoial onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
