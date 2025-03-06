@@ -1,0 +1,37 @@
+#my-works{
+ padding: 72px 24px 144px 24px;
+ 
+    #works{
+        padding-top:  56px; 
+        margin-inline: auto;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+
+        .card{
+            text-align: left;
+            background-color: var(--gray-300);
+            padding: 12px 12px 17px 12px;
+            border-radius: 12px;
+            max-width: 330px;
+            border: 1.5px solid var(--gray-300);
+
+            &:hover {
+                border: 1.5px solid var(--gray-400);
+                cursor: pointer;
+            }
+            img {
+                max-width: 304.5px;
+                border-radius: 8px;
+            }
+
+            h4{
+                padding-block:24px 8px;
+            }
+            p{
+                color: var(--gray-500);
+            }
+        }
+    }
+}
