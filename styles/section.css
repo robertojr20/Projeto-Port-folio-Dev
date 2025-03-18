@@ -35,3 +35,33 @@
         }
     }
 }
+
+#my-services{
+  background-color: var(--gray-100);
+  padding: 88px 24px 120px 24px;
+
+  #services{
+      margin-inline: auto;
+      padding-top: 56px;
+      max-width: 888px;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+
+    .card{
+        text-align: left;
+        width: 280px;
+        border: 2px solid var(--gray-200);
+        border-radius: 12px;
+        padding: 20px;
+      p{
+        color: var(--gray-500);
+        padding-top:8px;
+      }
+        img {
+        padding-bottom: 20px;
+        max-width: 48px;
+      }
+    }
+  }
+}
