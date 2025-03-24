@@ -65,3 +65,47 @@
     }
   }
 }
+
+#contact{
+  padding-top: 128px;
+  background-image: url(../assets/image/Background_Contacts.png);
+  height: 787px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  #buttons{
+    max-width:400px;
+    margin-inline:auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+  }
+
+  p{
+    color:var(--gray-500);
+    padding-block: 24px;
+    
+  }
+  
+  .button{
+    padding: 20px;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border: 1.5px solid var(--gray-300);
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--gray-500);
+    }
+    &:hover{
+      border: 1.5px solid var(--blue-color);
+    }
+  }
+
+}

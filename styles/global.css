@@ -79,3 +79,9 @@ p {
     color: var(--gray-400);
     margin-bottom: 80px;
 }
+
+a {
+    text-decoration: none;
+    color: var(--color-gray-500);
+    font: var(--text-md-stroke);
+  }
